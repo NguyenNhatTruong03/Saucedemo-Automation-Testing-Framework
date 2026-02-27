@@ -16,7 +16,7 @@ Hệ thống tập trung vào việc xác thực các quy trình nghiệp vụ c
 
 ## 🧪 2. Kịch bản kiểm thử chi tiết (Test Cases)
 
-Dự án áp dụng chiến lược **Data-Driven Testing (DDT)**, tách biệt hoàn toàn kịch bản và dữ liệu để tăng khả năng mở rộng.
+Dự án áp dụng **Data-Driven Testing (DDT)**, tách biệt hoàn toàn kịch bản và dữ liệu để tăng khả năng mở rộng.
 
 ### Nhóm 1: Chức năng Đăng nhập (Login)
 Dữ liệu được quản lý tại tệp `LoginData.xlsx`.
