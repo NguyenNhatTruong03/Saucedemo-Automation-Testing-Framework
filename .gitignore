@@ -23,3 +23,6 @@ logs/
 # === OS Specific ===
 .DS_Store
 Thumbs.db
+
+# Allure binary/executable folder
+.allure/
