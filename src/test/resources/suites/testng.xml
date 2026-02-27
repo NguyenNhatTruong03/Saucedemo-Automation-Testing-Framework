@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Saucedemo Regression Suite" verbose="1">
+    <listeners>
+        <listener class-name="com.company.utils.TestListenerUtil" />
+    </listeners>
+    <test name="E2E and Login Tests">
+        <classes>
+            <class name="com.company.test.LoginTest" />
+            <class name="com.company.test.InventoryTest" />
+            <class name="com.company.test.CartTest" />
+            <class name="com.company.test.E2ETest" />
+        </classes>
+    </test>
+</suite>

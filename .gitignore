@@ -1,0 +1,25 @@
+# === Maven & Compiled files ===
+target/
+*.class
+
+# === Test Results & Reports ===
+allure-results/
+allure-report/
+test-output/
+
+# === Logs ===
+*.log
+logs/
+
+# === IDE Specific (Eclipse/IntelliJ/VSCode) ===
+.settings/
+.project
+.classpath
+.factorypath
+.idea/
+*.iml
+.vscode/
+
+# === OS Specific ===
+.DS_Store
+Thumbs.db
